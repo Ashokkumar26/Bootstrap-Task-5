@@ -1,0 +1,50 @@
+.fabsa{
+  		padding: 10px;
+  		border-radius: 50%;
+  		background: lightgrey;
+  		font-size: 20px;
+ }
+ body{
+ 	font-family: monospace;
+ }
+.nav-item:hover {
+	text-decoration: underline;
+
+}
+.nav-item:active {
+	text-decoration: underline;
+
+}
+.navbar-toggler-icon{
+	transition: all .2s ease-out;
+}
+.navbar-toggler-icon:hover {
+	transform: scale(.8);
+}
+.link{
+	overflow: hidden;
+	height: 380px;
+	width: 400px;
+}
+.ca:hover{
+               transform: scale(1.04);
+               transition: all .5s ease-in;
+               filter: brightness(.5);
+
+}
+.link:hover .overlay{
+        transform: translateY(10%);
+  		opacity: 1;
+  		transition: all .2s ease;
+}
+.overlay{
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: 50%;
+	left: 30%;
+	right: 30%;
+	top: 50%;
+	opacity: 0;
+	transition: all .2s ease;
+}
